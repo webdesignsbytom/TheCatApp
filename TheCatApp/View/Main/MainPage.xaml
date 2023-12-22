@@ -33,14 +33,15 @@
             <RowDefinition Height="5*" />
         </Grid.RowDefinitions>
         <!-- Frame as a container for the image with padding and margin -->
-        <Grid Grid.Row="0" Padding="15" Margin="5">
+        <Grid Grid.Row="0" Padding="20" Margin="10">
             <Image Source="cat_app_logo.png"
                    Aspect="AspectFit"
+                   Margin="0,25,0,0"
                    SemanticProperties.Description="Cat app logo" />
         </Grid>
-
+ 
         <!-- Buttons occupying the bottom half -->
-        <Grid Grid.Row="1" Padding="0,0" RowSpacing="0">
+        <Grid Grid.Row="1" Padding="0,50,0,0" RowSpacing="0">
             <Grid.RowDefinitions>
                 <!-- Empty row for centering -->
                 <RowDefinition Height="Auto"/>
