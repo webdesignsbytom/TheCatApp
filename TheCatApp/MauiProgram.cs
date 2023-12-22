@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
+using TheCatApp.View.COTD;
 using TheCatApp.View.Main;
+using TheCatApp.ViewModel.COTD;
 using TheCatApp.ViewModel.Main;
 
 namespace TheCatApp
@@ -19,6 +21,8 @@ namespace TheCatApp
 
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddSingleton<MainPageViewModel>();
+            builder.Services.AddSingleton<CotdPage>();
+            builder.Services.AddSingleton<CotdPageViewModel>();
 
 #if DEBUG
     		builder.Logging.AddDebug();

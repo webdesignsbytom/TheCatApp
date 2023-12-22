@@ -1,9 +1,13 @@
-﻿namespace TheCatApp.View.Main;
+﻿using TheCatApp.ViewModel.Main;
+
+namespace TheCatApp.View.Main;
 public partial class MainPage : ContentPage
 {
-    public MainPage()
+    public MainPageViewModel ViewModel { get; set; }
+    public MainPage(MainPageViewModel viewModel)
     {
         InitializeComponent();
+        BindingContext = ViewModel = viewModel;
     }
 }
 

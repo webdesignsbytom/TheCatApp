@@ -5,6 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:TheCatApp"
     xmlns:main="clr-namespace:TheCatApp.View.Main"
+    xmlns:cotd="clr-namespace:TheCatApp.View.COTD"
     Shell.FlyoutBehavior="Disabled"
     Shell.NavBarIsVisible="False"
     Title="TheCatApp">
@@ -12,6 +13,11 @@
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate main:MainPage}"
-        Route="MainPage" />
+        Route="MainPage" />    
+    
+    <ShellContent
+        Title="Cat of the Day"
+        ContentTemplate="{DataTemplate cotd:CotdPage}"
+        Route="CotdPage" />
 
 </Shell>

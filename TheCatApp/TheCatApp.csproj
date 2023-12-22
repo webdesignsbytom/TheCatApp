@@ -78,4 +78,10 @@
 	  </MauiImage>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="View\COTD\CotdPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

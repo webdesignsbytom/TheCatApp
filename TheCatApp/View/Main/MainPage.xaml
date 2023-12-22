@@ -55,7 +55,8 @@
             <!-- Cat Of The Day Button -->
             <Button Grid.Row="0" 
             Text="Cat Of The Day!" 
-            Style="{StaticResource CatButtonStyle}" 
+            Style="{StaticResource CatButtonStyle}"
+            Command="{Binding NavigateToCotdCommand}"
              />
 
             <!-- Endless Cats Button -->
