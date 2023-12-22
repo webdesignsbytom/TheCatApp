@@ -85,14 +85,12 @@
 	  <MauiXaml Update="View\EndlessCats\EndlessCatsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="View\Games\GamesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="View\TherapyMode\TherapyModePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="ViewModel\Games\" />
-	  <Folder Include="View\Games\" />
 	</ItemGroup>
 
 </Project>

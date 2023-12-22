@@ -22,6 +22,12 @@ namespace TheCatApp.ViewModel.Main
         public async Task NavigateToTherapyMode()
         {
             await Shell.Current.GoToAsync("///TherapyMode");
+        }        
+        
+        [RelayCommand]
+        public async Task NavigateToGmesPage()
+        {
+            await Shell.Current.GoToAsync("///GamesPage");
         }
     }
 }

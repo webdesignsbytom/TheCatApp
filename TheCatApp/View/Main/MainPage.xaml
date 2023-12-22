@@ -76,6 +76,7 @@
             <Button Grid.Row="3" 
             Text="Cat Game" 
             Style="{StaticResource CatButtonStyle}" 
+            Command="{Binding NavigateToGmesPageCommand}"
            />
 
             <StackLayout Grid.Row="4" 
