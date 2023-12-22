@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using TheCatApp.Model.User;
 using TheCatApp.View.COTD;
 using TheCatApp.View.EndlessCats;
 using TheCatApp.View.Games;
@@ -35,6 +36,7 @@ namespace TheCatApp
             builder.Services.AddSingleton<TherapyModeViewModel>();
             builder.Services.AddSingleton<GamesPage>();
             builder.Services.AddSingleton<GamesPageViewModel>();
+            builder.Services.AddSingleton<UserModel>();
 
 #if DEBUG
     		builder.Logging.AddDebug();
