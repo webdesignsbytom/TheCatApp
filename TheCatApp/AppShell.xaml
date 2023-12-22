@@ -6,6 +6,8 @@
     xmlns:local="clr-namespace:TheCatApp"
     xmlns:main="clr-namespace:TheCatApp.View.Main"
     xmlns:cotd="clr-namespace:TheCatApp.View.COTD"
+    xmlns:tmode="clr-namespace:TheCatApp.View.TherapyMode"
+    xmlns:endlesscats="clr-namespace:TheCatApp.View.EndlessCats"
     Shell.FlyoutBehavior="Disabled"
     Shell.NavBarIsVisible="False"
     Title="TheCatApp">
@@ -18,6 +20,16 @@
     <ShellContent
         Title="Cat of the Day"
         ContentTemplate="{DataTemplate cotd:CotdPage}"
-        Route="CotdPage" />
+        Route="CotdPage" /> 
+    
+    <ShellContent
+        Title="Therapy Mode"
+        ContentTemplate="{DataTemplate tmode:TherapyModePage}"
+        Route="TherapyMode" />    
+    
+    <ShellContent
+        Title="Endless Cats"
+        ContentTemplate="{DataTemplate endlesscats:EndlessCatsPage}"
+        Route="EndlessCats" />
 
 </Shell>

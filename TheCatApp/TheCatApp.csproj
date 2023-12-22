@@ -21,7 +21,7 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>TheCatApp</ApplicationTitle>
+		<ApplicationTitle>The Cat App</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.thecatapp</ApplicationId>
@@ -82,6 +82,17 @@
 	  <MauiXaml Update="View\COTD\CotdPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="View\EndlessCats\EndlessCatsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\TherapyMode\TherapyModePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="ViewModel\Games\" />
+	  <Folder Include="View\Games\" />
 	</ItemGroup>
 
 </Project>
