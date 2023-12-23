@@ -8,6 +8,7 @@
     xmlns:cotd="clr-namespace:TheCatApp.View.COTD"
     xmlns:tmode="clr-namespace:TheCatApp.View.TherapyMode"
     xmlns:endlesscats="clr-namespace:TheCatApp.View.EndlessCats"
+    xmlns:games="clr-namespace:TheCatApp.View.Games"
     Shell.FlyoutBehavior="Disabled"
     Shell.NavBarIsVisible="False"
     Title="TheCatApp">
@@ -30,6 +31,11 @@
     <ShellContent
         Title="Endless Cats"
         ContentTemplate="{DataTemplate endlesscats:EndlessCatsPage}"
-        Route="EndlessCats" />
+        Route="EndlessCats" />    
+    
+    <ShellContent
+        Title="Games"
+         ContentTemplate="{DataTemplate games:GamesPage}"
+        Route="GamesPage" />
 
 </Shell>

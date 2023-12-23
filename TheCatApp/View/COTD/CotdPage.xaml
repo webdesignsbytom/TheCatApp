@@ -8,5 +8,11 @@
             Text="CAT OF THE DAY"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <MediaPlayerElement x:Name="mediaPlayerElement"
+                    Source="ms-appx:///Videos/video1.mp4"
+                    Width="400"
+                    AutoPlay="False"
+                    AreTransportControlsEnabled="True"/>
     </Grid>
 </ContentPage>
